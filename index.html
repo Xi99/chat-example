@@ -10,6 +10,13 @@
       }
       body {
         font: 13px Helvetica, Arial;
+        background-color: aqua;
+      }
+      h1 {
+        background-color: bisque;
+      }
+      h2 {
+        background-color: bisque;
       }
       form {
         background: #000;
@@ -39,11 +46,17 @@
         padding: 5px 10px;
       }
       #messages li:nth-child(odd) {
-        background: #eee;
+        background: rgb(255, 255, 255);
+        font-size: medium;
+        font-weight: bold;
       }
     </style>
   </head>
   <body>
+    <h1>Chat-Example</h1>
+    <br />
+    <h2>Get To Chatting!</h2>
+    <br />
     <ul id="messages"></ul>
     <form action="">
       <input id="m" autocomplete="off" /><button>Send</button>
